@@ -1,0 +1,31 @@
+div {
+  font-family: Arial, sans-serif;
+}
+
+span {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+button {
+  font-size: 12px;
+  padding: 2px 5px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+div:hover > span {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
